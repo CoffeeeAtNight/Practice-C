@@ -17,7 +17,7 @@ void myPause(void)
 int main() {
   do
   {
-    printf("Select a mode:\n1: %s\n2: %s\n0: %s\n", add, sub, quit);
+    printf("Select a mode:\n1: %s\n2: %s\n3: %s\n", add, sub, quit);
     printf("------------------------------\n");
     scanf("%d", &mode);
 
